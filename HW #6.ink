@@ -18,13 +18,13 @@ Why don't you say something to her!
     -> END
 
 
-== calmed_cat ==
+=calmed_cat 
 +Tiny 10 month old orange kitten; 6 lbs; female -> orange_cat
 +Mangy and grizzly black 12 yr old; 8 lbs; male -> black_cat
 +Young pretty looking house tabb; 3 yrs old; 8 lbs; male ->tabby
 -> END
 
-== calmed_dog ==
+=calmed_dog
 The teen leads Eliza into the back of the building and presents her with three options: 
 *Mangy 9 yr old mutt; 12 lbs; male -> Mutt
 *Beautiful 4 yr old husky; 35 lbs; female -> Husky
@@ -60,7 +60,7 @@ Eliza reluctantly looks up at the sky for your crappy guidance. Go on. Make the 
 -> END
 
 
-==on_edge_cats==
+=on_edge_cats
 The very obvious volunteer hops up from the desk and leads Eliza into the back of the building. Eliza walks tentitively behind, making her way down her personal river styx of wailing souls and lost hopes. Miss bossy snaps her fingers at Eliza who was dissacosiating and presents her with three options:
 +Tiny 10 month old orange kitten; 6 lbs; female -> orange_cat
 +Mangy and grizzly black 12 yr old; 8 lbs; male -> black_cat
@@ -136,7 +136,17 @@ Eliza has never had a pet before.
 And so Eliza chose to adopt the husky. She put the dog in a crate and went on her merry way. As she drove home, millions of thoughts flooded her mind. Can I take care of an animal? Will it love me? Will I love it? 
 But despite all of this. Eliza understands that she has the animal now, and thus she has a responsibility. She drops by the store and gets some toys, some treats, and some food. This at least she knows how to do. 
 Eliza finally gets the animal home and she lets it walk out into her small apartment. It sits and looks at her. She looks at it. 
-Eliza has never had a pet before. 
+Eliza has never had a pet before.
+It begins howling. -> funwithhusky
+=funwithhusky
++[Let Eliza have some fun] -> sing
+*{sing} [Stop her.] ->firstnightwithhusky
+
+=sing
+{&she says "awooooo"|she's singing now "aawooooo" (she coughs)| she's howling now... "howl" "howl" "howl"| "awoooooo". there you go Eliza! Have some fun! | "oooohhh awoooo" |} -> funwithhusky
+
+=firstnightwithhusky
+Eliza hadn't sung in a very long time. She looks at the Husky's expectant blue eyes, and feels very thankful to have a singing partner. 
 -> END
 
 ==life_with_pitbull==
