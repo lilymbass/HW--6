@@ -129,7 +129,18 @@ cat description
 And so Eliza chose to adopt the mutt. She put the dog in a crate and went on her merry way. As she drove home, millions of thoughts flooded her mind. Can I take care of an animal? Will it love me? Will I love it? 
 But despite all of this. Eliza understands that she has the animal now, and thus she has a responsibility. She drops by the store and gets some toys, some treats, and some food. This at least she knows how to do. 
 Eliza finally gets the animal home and she lets it walk out into her small apartment. It sits and looks at her. She looks at it. 
-Eliza has never had a pet before. 
+Eliza has never had a pet before.
+Eliza sits on the couch and the dog comes and sits next to her. ->namethemutt 
+Eliza decides that she needs to name this dog. She wants to make this decision herself. ->namethemutt 
+=namethemutt
++[choose! that! name!] ->namingmutt
+*{namingmutt} [choose this ] ->namedmutt
+
+=namingmutt
+{!Charles|mathew|griswold|dumptruck|tambourine|critter} -> namethemutt
+
+=namedmutt
+Good. that is a Good name. Eliza is happy. 
 ->END
 
 ==life_with_husky==
