@@ -1,4 +1,6 @@
-[gd_scene load_steps=7 format=3 uid="uid://bplfs1moe5c8i"]
+[gd_scene load_steps=8 format=3 uid="uid://bplfs1moe5c8i"]
+
+[ext_resource type="PackedScene" uid="uid://bbhrf5hysgn21" path="res://chonky_cat_trio/scene.gltf" id="1_80a5x"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_kgpla"]
 
@@ -24,10 +26,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.819183, 0)
 gravity_scale = 1.288
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.10503, 0)
 shape = SubResource("CapsuleShape3D_kgpla")
 
 [node name="pill" type="MeshInstance3D" parent="RigidBody3D2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.661903, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.08231, 0)
 mesh = SubResource("CapsuleMesh_yutcl")
 skeleton = NodePath("../..")
 
@@ -47,10 +50,13 @@ shape = SubResource("ConcavePolygonShape3D_5issa")
 [node name="RigidBody3D" type="RigidBody3D" parent="."]
 
 [node name="cube" type="MeshInstance3D" parent="RigidBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.77081, 0.756995, -0.680195)
+transform = Transform3D(0.781226, 0, 0.624248, 0, 1, 0, -0.624248, 0, 0.781226, -1.76145, 1.53671, -0.680195)
 mesh = SubResource("BoxMesh_03nl6")
 skeleton = NodePath("../..")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.77081, 0.756995, -0.680195)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.77081, 1.57967, -0.680195)
 shape = SubResource("BoxShape3D_m431y")
+
+[node name="Sketchfab_Scene" parent="." instance=ExtResource("1_80a5x")]
+transform = Transform3D(-0.994106, 0, 0.108416, 0, 1, 0, -0.108416, 0, -0.994106, 1.18663, -0.0631362, -2.26456)

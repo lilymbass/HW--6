@@ -1,5 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1708624611
-HW2:23.tscn::PackedScene::3462298607599745378::1708563247::0::1::::<><>::
+::res://::1708717461
+HW2:23.tscn::PackedScene::3462298607599745378::1708634461::0::1::::<><>::uid://bbhrf5hysgn21::::res://chonky_cat_trio/scene.gltf
 icon.svg::CompressedTexture2D::2231439344669793942::1708377623::1708377632::1::::<><>::
 ::res://cats/::1708612232
+::res://chonky_cat_trio/::1708634331
+license.txt::TextFile::-1::1702979954::0::1::::<><>::
+scene.gltf::PackedScene::2472102877084997492::1702979982::1708634331::1::::<><>::uid://ddgoscu3cuksu::::res://chonky_cat_trio/textures/Cat01_baseColor.png<>uid://bn1wwfdccvap4::::res://chonky_cat_trio/textures/Cat02_baseColor.png<>uid://db0fh4cryls0f::::res://chonky_cat_trio/textures/Cat03_baseColor.png
+::res://chonky_cat_trio/textures/::1708634336
+Cat01_baseColor.png::CompressedTexture2D::7383097167925229024::1702979964::1708634336::1::::<><>::
+Cat02_baseColor.png::CompressedTexture2D::3353924801245379555::1702979974::1708634336::1::::<><>::
+Cat03_baseColor.png::CompressedTexture2D::7281377951161687831::1702979980::1708634335::1::::<><>::
